@@ -9,10 +9,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Booking Is Done</title>
+        <link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
     </head>
     <body>
         <jsp:include page="header.jsp"/>
-        <h1>${patient.getName()}, your booking is done</h1>
+        
+        <br>
+        <br>
+        
+        <h1 class="text-center">${patient.getName()}, your booking is done</h1>
     </body>
 </html>

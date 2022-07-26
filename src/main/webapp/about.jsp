@@ -9,15 +9,22 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>About Us</title>
+        <link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
     </head>
     <body>
         
         <jsp:include page="homeHeader.jsp"/>
         
-        <h1>Hello World!</h1>
-        <h3>This is about us page</h3>
+        <br>
+        <br>
         
-        <jsp:include page="footer.jsp"/>
+        <h1 class="text-center">Welcome</h1>
+        <h3 class="text-center">This is about us page</h3>
+        
+      
     </body>
 </html>
